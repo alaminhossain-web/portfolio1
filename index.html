@@ -7,6 +7,20 @@
 </head>
 <body>
     <h1>AL AMIN  HOSSAIN</h1>
-    <P>My name is khan.</P>
+<h1 id="empty"></h1>
+    <button type="button" onclick="myposition()">GET LOCATION</button>
+    <script>
+        var h=document.getElementById("empty");
+        function myposition(){
+            if(navigator.geolocation){
+                navigator.geolocation.getCurrentPosition(shoelocation);
+
+            }
+        }
+        function shoelocation(position){
+        h.innerHTML="long:" +position.coords.latitude;
+        }
+    </script><br>
+    
 </body>
 </html>
