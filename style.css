@@ -100,9 +100,9 @@ body{
     float: right;
     text-align: right;
 }
-.nav-link
+a.nav-link:hover, a.nav-link:active 
 {
-    color: #fff !important;
+    color:whitesmoke;
 }
 .skills-bar
 {
