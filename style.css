@@ -79,7 +79,8 @@ body{
 }
 .navbar 
 {
-    background-color: #ffffff00;
+    background-color: #000;
+    opacity: 0.3;
 }
 .navbar-brand img
 {   
@@ -88,7 +89,7 @@ body{
 .nav-bar .fa-bars
 {
     font-size: 35px;
-    color: #000;
+    color: #fff;
 }
 .navbar-toggler 
 {
